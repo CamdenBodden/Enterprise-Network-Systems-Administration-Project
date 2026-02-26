@@ -131,6 +131,83 @@ Policies include:
 - User configuration management
 - Administrative control settings
 
-<p> PLACE SCREENSHOT HERE — Group Policy Management Console </p>
+<p>
+  <img src="images/Group_Policy_Management Console.png" width="1000" height="500"/>
+</p>
+
+<h2>Part 7 — Network Segmentation & Firewall Policy</h2>
+
+Network traffic is controlled using VLAN gateways and firewall rules.
+
+- Security controls include:
+- Restricted workstation-to-server communication
+- Administrative network isolation
+- Guest network isolation
+- Controlled inter-VLAN routing
+
+<p>
+   <img src="images/FortiGate_VLAN_Interfaces.png" width="1000" height="1000"/>
+</p>
+
+<p>
+   <img src="images/Firewall_Policy.png" width="1000" height="500"/>
+</p>
 
 
+
+<h2>Part 8 — Switch Infrastructure</h2>
+
+The access layer enforces VLAN membership and device segmentation.
+
+Configuration includes:
+- Access ports
+- Trunk links
+- VLAN tagging
+- Network role separation
+
+<p>
+   <img src="images/FortiSwitch_Ports.png" width="1000" height="500"/>
+</p>
+
+<h2>Part 9 — Wireless Network Segmentation</h2>
+
+Wireless networks are mapped to VLANs to enforce security boundaries.
+
+Networks include:
+- Corporate wireless network
+- Guest wireless network
+- Segmented traffic routing
+
+<h2>Security Design</h2>
+
+Security controls implemented across the environment:
+- Network segmentation
+- Role-based permissions
+- Administrative privilege separation
+- Restricted lateral movement
+- Controlled resource access
+
+<h2>Key Skills Demonstrated</h2>
+
+Enterprise infrastructure deployment
+- Active Directory administration
+- Network segmentation design
+- Identity and access management
+- File services architecture
+- Policy-based configuration management
+- Firewall rule implementation
+- Virtual server infrastructure management
+- Enterprise documentation practices
+
+<h2>Project Status</h2>
+
+Active development and ongoing expansion.
+
+Future additions may include:
+- RADIUS Server Implementation
+- FortiGate HA Pair Implentation
+- VPN tunnel Implentation
+- Monitoring and alerting systems
+- Backup and recovery automation
+- Identity federation integration
+- Security auditing and logging
